@@ -52,6 +52,7 @@ const mapRange = (value, x1, y1, x2, y2) =>
   ((value - x1) * (y2 - x2)) / (y1 - x1) + x2;
 
 const pollAudio = async (audioTrack, canvas) => {
+  audioContext.resume();
   const context = canvas.getContext("2d");
   const width = canvas.width;
   const height = canvas.height;
