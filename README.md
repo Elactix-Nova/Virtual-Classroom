@@ -85,7 +85,6 @@ We use Twilio's Video SDK for JavaScript to enable users to stream data from the
 
 ### Built With
 
-* React.js
 * HTML
 * CSS
 * JavaScript
